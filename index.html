@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Nabeel Bangash</div>
+        <div>
+            <ul class = "nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+<div class="logo">Nabeel Bangash</div>
+<div class= "hamburger-menu">
+    <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+         <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+         <li><a href="#contact" onclick="toggleMenu()">Contacts</a></li>
+    </div>
+</div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./assets/Headshot.png" alt="Nabeel Bangash Profile Pic">
+        </div>
+        <div class = "section_text">
+<p class = "section_text_p1"> Hello, I'm</p>
+<h1 class="title">Nabeel Bangash</h1>
+<p class="section__text__p2"> Electrical Engineer</p>
+<div class = "btn-container">
+    <button 
+    class="btn btn-color-2" 
+    onclick="window.open('./assets/NabeelResume.pdf')"> 
+Resume
+    </button>
+    <button 
+    class="btn btn-color-1" 
+    onclick="location.href='./#contact'"> 
+Contact info
+    </button>
+</div>
+<div id="socials-container">
+    <img 
+    src="./assets/linkedin.png" 
+    alt="My Linkdin profile"
+    class="icon" 
+    onclick="location.href='https://www.linkedin.com/in/nabeelbangash/'"
+    />
+    <img 
+    src="./assets/github.png" 
+    alt="My GetHub profile"
+    class="icon" 
+    onclick="location.href='https://github.com/nabeel0621-ctrl?tab=repositories'"
+    />
+</div>
+        </div>
+        <img src="./assets/arrow.png" 
+        alt="Arrow icon" 
+        class = "icon arrow"
+        onclick="location.href='./#about'">
+    </section>
+    <section id ="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class = "section_pic-container">
+                <img 
+                src="./assets/fishing.png" 
+                alt="Profile picture"
+                class = "about-pic"
+                />
+            </div>
+            <div class="about-details-container">
+                <div class = "about-containers">
+                    <div class = "details-container">
+                        <img 
+                        src="./assets/experience.png" 
+                        alt="Experience icon"
+                        class = "icon"
+                        />
+                        <h3>Experience</h3>
+                        <p>University of Houston <br> Electrical Engineer Student </p> 
+                    </div>
+                    <div class = "details-container">
+                        <img 
+                        src="./assets/education.png" 
+                        alt="Education icon"
+                        class = "icon"
+                        />
+                        <h3>Education</h3>
+                        <p>Sophmore <br> GPA - 3.743 </p>
+                    </div>
+                </div>
+                <div class = "text-container">
+                    <p>
+                      Hi, I’m Nabeel! I’m a student at the University of Houston pursuing a degree in Electrical Engineering. Outside of my studies, I enjoy fishing, playing basketball, video games, and going to the gym to maintain my fitness. 
+                      Fun fact: I used to play the trombone!  
+                    </p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Arrow icon" class = "icon arrow"
+        onclick="location.href='./#experience'">
+    </section>
+    <section id = "experience">
+        <p class = "section_text_p1">Explore My</p>
+        <h1 class = "title">Experience</h1>
+        <div class="experience-details-container">
+            <div class=" about-containers">
+                <div class="details-containers">
+                <h2 class="experience-sub-title">Programs</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="/assets/checkmark.png" 
+                        alt="Experience icon"
+                        class = "icon"
+                        >
+                        <div>
+                            <h3>Fusion 360</h3>
+                            <p>intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="/assets/checkmark.png" 
+                        alt="Experience icon"
+                        class = "icon"
+                        >
+                        <div>
+                            <h3>Matlab</h3>
+                            <p>intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="/assets/checkmark.png" 
+                        alt="Experience icon"
+                        class = "icon"
+                        >
+                        <div>
+                            <h3>Python</h3>
+                            <p>intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="/assets/checkmark.png" 
+                        alt="Experience icon"
+                        class = "icon"
+                        >
+                        <div>
+                            <h3>C++</h3>
+                            <p>intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="/assets/checkmark.png" 
+                        alt="Experience icon"
+                        class = "icon"
+                        >
+                        <div>
+                            <h3>HTML</h3>
+                            <p>intermediate</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="/assets/checkmark.png" 
+                        alt="Experience icon"
+                        class = "icon"
+                        >
+                        <div>
+                            <h3>Plastic Welding</h3>
+                            <p>basic</p>
+                        </div>
+                    </article>
+                    <article>
+                        <img src="/assets/checkmark.png" 
+                        alt="Experience icon"
+                        class = "icon"
+                        >
+                        <div>
+                            <h3>CSS</h3>
+                            <p>intermediate</p>
+                        </div>
+                    </article>
+                </div>
+                </div>
+                <div class="details-containers">
+                <h2 class="experience-sub-title">Internships</h2>
+                <div class="article-container">
+                    <article>
+                        <img src="/assets/checkmark.png" 
+                        alt="Experience icon"
+                        class = "icon"
+                        >
+                        <div>
+                            <h3> </h3>
+                            <p> </p>
+                        </div>
+                    </article>
+                   
+                </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" 
+        alt="Arrow icon" 
+        class = "icon arrow"
+        onclick="location.href='./#projects'">
+    </section>
+    <section id = "projects">
+        <p class = "section_text_p1"> Browse My Recent</p>
+        <h1 class ="title">Projects</h1>
+        <div class = "experience-details-container">
+            <div class = "about-containers">
+            <div class = " details-containers color-container">
+                <div class="article-container">
+                    <img src="./assets/Helmet.png" 
+                    alt="Project 1" 
+                    class="project-img">
+                </div>
+                <h2 class = "experience-sub-title project-title">Iron Man Helmet</h2>
+                <div class = "btn-container">
+                    <button class ="btn btn-color-2 project-btn" 
+                    onclick="location.href='https://github.com/nabeel0621-ctrl/Iron-Man-Helmet'">
+                        Github
+                    </button>
+                         <button class ="btn btn-color-2 project-btn" 
+                    onclick="location.href='https://www.youtube.com/shorts/zeSlC2dyhrU'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class = " details-containers color-container">
+                <div class="article-container">
+                    <img src="./assets/Symptom.png" 
+                    alt="Project 2" 
+                    class="project-img">
+                </div>
+                <h2 class = "experience-sub-title project-title">Symptom Debugger</h2>
+                <div class = "btn-container">
+                    <button class ="btn btn-color-2 project-btn" 
+                    onclick="location.href='https://github.com/nabeel0621-ctrl/Symptom-Debugger'">
+                        Github
+                    </button>
+                         <button class ="btn btn-color-2 project-btn" 
+                    onclick="location.href='https://www.youtube.com/watch?v=a9bf2nF5XKQ&ab_channel=NabeelBangash'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class = " details-containers color-container">
+                <div class="article-container">
+                    <img src="./assets/website.png" 
+                    alt="Project 3" 
+                    class="project-img">
+                </div>
+                <h2 class = "experience-sub-title project-title">Website</h2>
+                <div class = "btn-container">
+                    <button class ="btn btn-color-2 project-btn" 
+                    onclick="location.href='https://github.com/nabeel0621-ctrl/Website'">
+                        Github
+                    </button>
+                </div>
+            </div>
+            </div>
+             <img src="./assets/arrow.png" 
+        alt="Arrow icon" 
+        class = "icon arrow"
+        onclick="location.href='./#contact'">
+        </div>
+    </section>
+    <section id ="contact">
+        <p class = "section_text_p1"> Get in Touch</p>
+        <h1 class = "title">Contact Me</h1>
+        <div class ="contact-info-upper-container">
+            <div class = "contact-info-container">
+                <img src="./assets/email.png" 
+                alt="Email icon" 
+                class = "icon contact-icon email-icon"
+                />
+            <p><a href="mailto:nabeel0621@gmail.com"> nabeel0621@gmail.com</a></p>
+            </div>
+            <div class = "contact-info-container">
+                <img src="./assets/linkedin.png" 
+            alt="inkedin icon" 
+                class = "icon contact-icon"
+                />
+            <p><a href="https://www.linkedin.com/in/nabeelbangash/"> Linkedin</a></p>
+            </div>
+    </section>
+    <footer>
+        <nav>
+            <div class = "nav-links-container">
+            <ul class = "nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2025 Nabeel Bangash. All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
